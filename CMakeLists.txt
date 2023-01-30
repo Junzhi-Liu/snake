@@ -6,4 +6,4 @@ SET(CMAKE_ASM_COMPTLER gcc)
 SET(LIBRARY_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/build/)
 project(Snake)
 
-add_executable(Snake code/main.c)
+add_executable(Snake code/main.c code/matrix.c code/snake.c code/apple.c)
